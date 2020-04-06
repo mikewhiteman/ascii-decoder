@@ -7,3 +7,6 @@ Attackers often utilize ASCII code conversions to obfuscate payloads. This is a 
 
 **Payload:** `"><script >alert(String.fromCharCode(88,83,83))</script>`  
 **Output:** `XSS`
+
+## Usage
+Run `python3 ascii_decoder.py` and supply the payload in the input prompt. Will convert this to a command line arg soon. 
