@@ -5,5 +5,5 @@ Attackers often utilize ASCII code conversions to obfuscate payloads. This is a 
 **Payload:** `id=' UNION SELECT CHAR(45,120,49,45,81,45)--`  
 **Output:** `-x1-Q-`  
 
-**Payload:** `"><script >alert(String.fromCharCode(88,83,83))</script>`
+**Payload:** `"><script >alert(String.fromCharCode(88,83,83))</script>`  
 **Output:** `XSS`
