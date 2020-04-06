@@ -15,7 +15,7 @@ def convert_to_char(ascii_values):
 		return "[!] No valid ASCII values found..."
 
 if __name__ == "__main__": 
-    waf_text = input("Enter payloda containing ASCII encoding: ")
-    ascii_values = re.findall(r'\d+', waf_text)
+    input_payload = input("Enter payload containing ASCII encoding: ")
+    ascii_values = re.findall(r'\d+', input_payload)
     output = convert_to_char(ascii_values)
     print(output)
